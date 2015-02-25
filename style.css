@@ -1,8 +1,56 @@
+
 body {
-  font-family: 'helvetica neue', arial, sans-serif;
-  font-weight: 300;
-  background: url(linedpaper.png) repeat;
+  width: 960px;
+  height:auto;
+  margin: 30px auto;
+  font-family: helvetica neue, arial, sans-serif;
+  color:gray;
+  font-size: large;
+  background-color: black;
+  border:2px solid white;
+  padding: 60px;
+    }
+img {
+	float:right;
+	padding-left:30px;
+	}
+
+	H1 {
+  		color:blue;
+	}	
+	H2 {
+  		color:lightblue;
+	}
+	H3 {
+  		color:lightblue;
+  	
+	}		
+	H4 {
+  		color:lightblue;
+  		border-bottom: 1px solid white;
+	}	
+	H5 {
+  		color:lightblue;
+	}	
+
+table,th,td {
+	color:white;
+	line-height:30px;
+	width:900px;
+	text-align: center;
+	border:1px solid white;
 }
+
+thead {
+	color:lightblue;
+	}
+
+ul {
+	font-size: medium;
+	font-style: italic;
+}
+
+
 #wrapper {
   width: 960px;
   margin: 20px auto;
