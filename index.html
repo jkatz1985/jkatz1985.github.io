@@ -1,97 +1,103 @@
-<!-- this is my first program. -->
 <!DOCTYPE html>
 <html>
 <head>
-  <title>About Jacob</title>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="style.css">
+<div class="container-fluid">
+	<title>Welcome to FlavorLUSH</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="stylesheets/flavorlush.css">
 </head>
 <body>
-  <div id="wrapper">
-    <h1>Jacob Katz</h1>
-    <p>
-      <img src="Jacob_Kellogg_Image.jpg">
-    </p>
-    <h2>Senior Marketing Manager</h2>
-    <h3>Winnetka, IL</h3>
-    <section>
-      <h4>Connect With Me</h4>
-      <ul>
-        <li><a href="mailto:jacokatz@gmail.com">Email</a></li>
-        <li><a href="https://twitter.com/Jakesome26">Twitter</a></li>
-        <li><a href="https://www.facebook.com/jacob.katz.5876">Facebook</a></li>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://www.flavorlush.com">FLAVORLUSH.COM</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="http://www.facebook.com">COMMUNITY <span class="sr-only">(current)</span></a></li>
+        <li><a href="http://www.thespicehouse.com/">STORE</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> TOP RECIPIES <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Chicken Vindaloo</a></li>
+            <li><a href="#">Habanero Curry</a></li>
+            <li><a href="#">Hot Faucet Chili</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
       </ul>
-    </section>
-    <section>
-      <h4>Summary</h4>
-      <p>
-        Jacob received a B.S. in marketing from the University of Illinois before joining Medline Industries, where he has worked for the last 7 years in the Advanced Wound and Skin Care division. Under his management, the advanced wound care business has grown from $65 million to $140 million in 2014. He is currently earning his MBA at Kellogg graduate school of management. He will graduate in June of 2015.
-      </p>
-    </section>
-    <section>
-      <h4>Experience</h4>
-      <section>
-        <h5>Sr. Marketing Manager, Advanced Wound and Skin Care Division</h5>
-        <p><em>"Everyone should have access to the highest quality wound care"</em></p>
-      <h5>Achievements</h5>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Search</button>
+      </form>
+      
+        
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div id="wrapper">
+    <div id="banner">
+      <img src="images/spicebanner.jpg">
+    </div>
+    <h3>FOLLOW US</h3>
         <ul>
-          <li>Designed a mobile application for use of the sales force</li>
-          <li>Successfully launched 10 new products</li>
-          <li>Still has most of his hair</li>
-        </ul>
+        <a class="btn btn-primary" href="https://twitter.com/Jakesome26" role="button">Twitter</a>
+        <a class="btn btn-info" href="https://www.facebook.com/jacob.katz.5876" role="button">Facebook</a>
 
-      </section>
-      <section>
-        <h5>MBA Candidate, Kellogg Graduate School of Business</h5>
-        <p>Northwestern's Kellogg School of Business is one of the top MBA programs in the U.S.</p>
-        <table>
-          <thead>
-            <tr>
-              <th>Favorite Classes</th>
-              <th>Topic</th>
-              <th>Professor</th>
-              <th>Grade</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>MGM431</td>
-              <td>Business Strategy</td>
-              <td>Busse</td>
-              <td>A</td>
-            </tr>
-            <tr>
-              <td>KIEI462</td>
-              <td>New Venture Discovery</td>
-              <td>Schonthal</td>
-              <td>A</td>
-            </tr>
-            <tr>
-              <td>MKTG950</td>
-              <td>Marketing Lab</td>
-              <td>Hennessey</td>
-              <td>A</td>
-            </tr>
-          </tbody>
-        </table>
-
-      </section>
-    </section>
-    <section>
-      <h4>Skills</h4>
-      <ul>
-        <li>Marketing</li>
-        <li>Strategy</li>
       </ul>
     </section>
-    <section>
-      <h4>Hobbies</h4>
-      <ul>
-        <li>Coding</li>
-        <li>Going to restuarants</li>
-        <li>Travelling</li>
-      </ul>
-    </section>
-  </div>
+
+<div class="row">
+    <div class="col-md-8">
+            <h2>About FlavorLUSH</h2>
+            <p>
+            FlavorLUSH is a community marketplace of flavor enthusiasts and entrepreneurs who make it their mission to explore the most intense flavors around.
+            FlavorLUSH is a community marketplace of flavor enthusiasts and entrepreneurs who make it their mission to explore the most intense flavors around.
+            FlavorLUSH is a community marketplace of flavor enthusiasts and entrepreneurs who make it their mission to explore the most intense flavors around.
+            FlavorLUSH is a community marketplace of flavor enthusiasts and entrepreneurs who make it their mission to explore the most intense flavors around.
+            FlavorLUSH is a community marketplace of flavor enthusiasts and entrepreneurs who make it their mission to explore the most intense flavors around.
+            FlavorLUSH is a community marketplace of flavor enthusiasts and entrepreneurs who make it their mission to explore the most intense flavors around.
+            FlavorLUSH is a community marketplace of flavor enthusiasts and entrepreneurs who make it their mission to explore the most intense flavors around.
+            </p>
+    </div>   
+    <div class="col-md-4">
+            <h2>Upcoming Events</h2>
+            <ul>
+                <li><a href="http://monicasrestaurants.com/">Chicago Meetup 3.3.15 - Monica's</li>
+                <li><a href="http://monicasrestaurants.com/">Seatle Meetup 3.3.15 - Jaipur</li>
+                <li><a href="http://monicasrestaurants.com/">New York Meetup 3.3.15 - Jolokia</li>
+                
+                
+            </ul>
+    </div>
+
+    <div>
+        <div id="girl">
+            <img src="images/spicegirl.jpg">
+        </div>
+        
+    </div>
+
+</div>
+	
 </body>
 </html>

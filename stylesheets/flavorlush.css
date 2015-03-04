@@ -21,11 +21,11 @@ h3{
 	font-style:italic;
 }
 
+li{
+  border-bottom:1px solid white;  
+}
+
 #wrapper {
   width: 960px;
   margin: 20px auto;
-}
-li{
-  size:50px;
-  border-bottom:3px solid blue;  
 }
